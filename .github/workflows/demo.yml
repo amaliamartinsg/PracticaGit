@@ -1,0 +1,11 @@
+name: Demo CI
+
+on:
+  workflow_dispatch:
+
+jobs:
+  say-name:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Say my name
+        run: echo "Amalia Martín Ruiz"
